@@ -30,6 +30,11 @@ user1("Ravi", 21);
 const user2 = function sum(a ,b){
     return a+b;
 }
+
+//3rd method is arrow method in next module
+
+
+
 // console.log(sum(2+3)) 
 //  (it cannot be called like this because because sum is defined in variable  )
 console.log(user2(2,5))

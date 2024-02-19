@@ -33,6 +33,6 @@ const obj5 = {...obj3,...obj4}
 const arr = [{},{ },{}]
 console.log(Object.keys(obj1));
 console.log(Object.values(obj1))
-console.log(Object.entries(obj1))
+console.log(Object.entries(obj1))   // returns array of key value  pair
 
 console.log(Object.hasOwnProperty("name"));

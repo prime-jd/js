@@ -4,7 +4,7 @@
 
 const arr = [5, 4,  6, 7, 8]
 for (const num of arr) {
-   console.log(num) 
+//  console.log(num) 
 }
 
 // const user = {
@@ -41,9 +41,9 @@ mp.set("item_id", 24)
 //    console.log(key)        //this will give only key values in a map
 //   }
 
-for(const [key,value] of mp){
-   console.log(`the key is ${key} and its value is ${value}`)        //this will give only key values in a map
-  }
+// for(const [key,value] of mp){
+//    console.log(`the key is ${key} and its value is ${value}`)        //this will give only key values in a map
+//   }
 
 
 // FOR IN LOOP(objects are iteratable using this)
@@ -54,6 +54,9 @@ const obj = {
    gender : "male"
 }
 for (const key in obj) {
-   console.log(key.valueOf())
+//   console.log(obj[key])
    
 }
+// for(const key in mp){
+//    console.log(`the key is ${key} `)        //maps are not iteratable in for in loop
+//   }

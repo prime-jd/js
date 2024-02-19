@@ -10,3 +10,7 @@
 })(6,2)
 
 const user = ((username) => {console.log(`hello ${username}`)})("rsam")
+
+
+const num = ((numb) => numb+2)(4)
+console.log(num);

@@ -58,3 +58,29 @@ d.addEventListener("submit", function(e)
     }
 });
 ```
+## project3
+
+```javascript
+const change_col = function(){
+    const hex  = '0123456789ABCDEF';
+    let col = '#';
+    for (let i = 0; i < 6; i++) {
+        col += hex[Math.floor(Math.random()*16)]    
+    }
+    return col;
+}
+console.log(change_col());
+let interval;
+const startChangeColor = function(){
+     interval = setInterval(changeBgCol, 1000);
+    function changeBgCol() {
+        document.body.style.backgroundColor = change_col(); 
+    } 
+};
+const stopChangeColor = function(){
+    clearInterval(interval);
+}
+
+document.querySelector('#start').addEventListener('click', startChangeColor)
+document.querySelector('#stop').addEventListener('click', stopChangeColor)
+```

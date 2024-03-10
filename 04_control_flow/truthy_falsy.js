@@ -44,7 +44,7 @@ console.log("email not empty")
 
 let val1 = 5 ?? 10
 val1 = null ?? 10    // some times null cause some error or uncertainity in code thats why it is assigned to another provided value
-val1 = null ?? 10 ?? 20
+val1 = null ?? 10 ?? 20 // returns right hand side op when left is null else return left hand side op
 console.log(val1)
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

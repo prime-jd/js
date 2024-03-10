@@ -11,14 +11,14 @@
 // }
 // const user = greeting();
 // // console.log(typeof user)
-// console.log(user) // both gives undefined results as no result value
+// console.log(user)                     // both gives undefined results as no result value
 
-// we can instance of a user defined object for a function using new keyword
+// we can create instance of a user defined object for a function using new keyword
 // const obj = new employee("Yadav",21,{})
 // // console.log(obj)
 
 
-// difference types of function definition methods
+     // difference types of function definition methods
 // 1st Method
 function user1(name,age){
     
@@ -27,15 +27,17 @@ function user1(name,age){
 user1("Ravi", 21);
 
 //  2nd method (we also call it as expression this method is quite different from previous method)
-const user2 = function sum(a ,b){
+const user2 = function(a ,b){
     return a+b;
 }
+
+              // console.log(sum(2+3)) 
+              //  (it cannot be called like this because because sum is defined in variable  )
+console.log(user2(2,5))
+
 
 //3rd method is arrow method in next module
 
 
 
-// console.log(sum(2+3)) 
-//  (it cannot be called like this because because sum is defined in variable  )
-console.log(user2(2,5))
 

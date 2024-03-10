@@ -9,12 +9,12 @@ console.log(myarr);
 myarr.pop()
 console.log(myarr);
 
-myarr.shift();
+myarr.shift();           //remove element from front of array
 console.log(myarr);
-myarr.unshift(1);
+myarr.unshift(1);        //reverse of shift by providing shifted element
 console.log(myarr);
 console.log(myarr.includes(9))
-console.log(myarr)
+//console.log(myarr)
 
 console.log(myarr.join()) // converts to string
 

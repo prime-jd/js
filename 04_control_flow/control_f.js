@@ -34,8 +34,8 @@ if(user == "sam" || balance == 500){
     console.log("jai bajrangbali")
 }
 
-// === operator
+// === operator   // checks equality & with their datatypes
 if("2" === 2)
 console.log("true")
 else
-console.log("false")
+console.log("false")  //false

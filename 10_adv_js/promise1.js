@@ -65,3 +65,6 @@ fetchData(apiUrl)
     .catch(error => {
         console.error('There was a problem fetching data:', error);
     });
+
+// fetch call =>The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. 
+//              It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.

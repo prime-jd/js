@@ -9,8 +9,24 @@
     <h>throttle</h>
     <button>send email</button>
     <script>
+        let apicall;
+        const throttle = (fn, time)=>{
+           if(apicall) return;
+           apicall = true;
+           setTimeout(()=>{
+            fn();
+            apicall= false;
+           }, time);
+        }
+        const func = ()=>{
+            throttle((e)=>{
+            console.log("email sent");
+            }, 5000)
+        }
         const email = document.querySelector('button');
-        function throttle(){}
+        email.addEventListener('click', func
+        );
+        
     </script>
 </body>
 </html>
